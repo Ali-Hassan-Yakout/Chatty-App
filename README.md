@@ -1,16 +1,55 @@
-# chatty
+# 📱 Chatty App
 
-A new Flutter project.
+Chatty is a beautiful, real-time messaging app built using Flutter and Firebase. It enables users to chat one-on-one or in groups, with real-time updates, media sharing, and push notifications — all in a smooth, responsive UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User authentication (Register, Login, Logout)
+- 💬 Real-time chat with Firestore
+- 📤 Send & receive text, images, and files
+- 🧑‍🤝‍🧑 One-on-one and group messaging
+- 🟢 Online/offline status
+- 🔔 Push notifications (FCM)
+- 📷 Image picker and preview
+- 🌙 Light & dark themes
+- 📱 Mobile responsive (Android/iOS)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+| Category        | Tools / Libraries         |
+|----------------|---------------------------|
+| **Frontend**    | Flutter                   |
+| **Backend**     | Firebase (Firestore, Auth, Storage) |
+| **Notifications** | Firebase Cloud Messaging |
+| **State Management** | Provider / Riverpod / Bloc |
+| **Media Handling** | image_picker, file_picker |
+| **UI Components** | Flutter Widgets, Lottie |
+
+---
+
+## 🎥 Demo Video
+
+Watch a short demo of Chatty in action:  
+👉 [Click here to watch the demo](https://your-demo-video-link.com)  
+
+---
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (3.x or higher)
+- Firebase account
+- Android Studio / VS Code
+
+### Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/chatty-app.git
+cd chatty-app
